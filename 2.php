@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-<h1>
+<h2>
 <?php
 class Article {
     public $title;
@@ -31,7 +31,7 @@ echo $a->getTitle();
 $a->setNews(5+8);
 echo $a->getNews();
 ?>
-</h1>
+</h2>
 </body>
 </html>
 
